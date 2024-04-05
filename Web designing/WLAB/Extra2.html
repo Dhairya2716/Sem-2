@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Student Registration</h1>
+    <fieldset><legend align="center">Personal Information</legend>
+    <form>
+        <table align="center">
+            <tr valign="center">
+                <td>Name*</td>
+                <td><input type="text" placeholder="enter your name"></td>
+                <td>Password*</td>
+                <td><input type="password" placeholder="Enter your password"></td>
+            </tr>
+            <tr valign="center">
+                <td>Email</td>
+                <td colspan="3">
+                    <input type="email" style="width: 98%;" placeholder="enter your email"></td>
+            </tr>
+            <tr valign="center">
+                <td>Mobile Number</td>
+                <td><input type="number" placeholder="Enter your mobile number"></td>
+                <td>Date of Birth</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr valign="center">
+                <td>Gender</td>
+                <td><input type="radio" name="Gender">Male <br><input type="radio" name="Gender">Female</td>
+                <td>Hobbies</td>
+                <td><input type="checkbox">Reading <br>
+                <input type="checkbox">Singing <br> <input type="checkbox">Cricket <br> <input type="checkbox">Swimming</td>
+            </tr>
+            <tr valign="center">
+                <td>CGPA</td>
+                <td><input type="range" step="1">10.00</td>
+                <td><button>OR</button></td>
+                <td><input type="number" pattern=[0-10] step=".01"></td>
+            </tr>
+            <tr valign="center">
+                <td>Insert Resume</td>
+                <td><input type="file" name="" id=""></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr valign="center">
+                <td>LinkedIn URL</td>
+                <td colspan="3"><input type="text" placeholder="please enter URL" style="width: 98%;"></td>
+            </tr>
+            <tr valign="center">
+                <td colspan="2" align="right"><button type="submit">submit</button></td>
+                <td><button type="reset">reset</button></td>
+            </tr>
+        </table>
+    </form>
+</fieldset>
+<br>
+<br>
+<br>
+<h3>Comment</h3>
+<table>
+    <tr>
+        <td>
+            <textarea name="" id="" cols="179" rows="" placeholder="Please enter some suggestions"></textarea>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: none;
+            padding: none;
+        }
+        .black{
+            background-color: black;
+        }
+        .header{
+            background-color: red;
+            color: white;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            width:1303px;
+        }
+        .navigation{
+            background-color: blue;
+            height: 70vh;
+            width: 20%;
+            float: left;
+            text-align: center;
+            margin-right: 10px;
+            padding-top: 10%;
+        }
+        .content{
+            background-color: yellow;
+            text-align: center;
+            float: left;
+            height: 70vh;
+            width: 77%;
+            margin-right: 4px;
+            border: white;
+        }
+        .sidebar{
+            background-color: green;
+            float: right;
+            height: 45vh;
+            width: 20%;
+            border: white;
+            margin-left: 2px;
+            border-bottom: 10px solid white;
+            border-left: 10px solid white;
+        }
+        .NCS{
+            width: 100%;
+        }
+        .footer{
+            background-color: aqua;
+            float: left;
+            width: 1303px;
+            margin-top: 10px;
+        }
+        .black1{
+            background-color: black;
+            float: left;
+            width: 1330px;
+            margin-top: 10px;
+        }
+        @media (max-width: 280px){
+            .header{
+                width: 269px;
+            }
+            .navigation{
+                width: 269px;
+            }
+            .content{
+                width: 269px;
+            }
+            .sidebar{
+                width: 269px;
+            }
+            .NCS{
+                width: 269px;
+            }
+            .footer{
+                width: 269px;
+            }
+            .black1{
+                width: 269px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="black"> a</div>
+    <div class="header" align="center">Header</div>
+    <div class="NCS">
+        <div class="navigation" align="center" style="vertical-align:text-bottom; text-align: center;"><p>Navigation</p></div>
+        <div class="content">Content 
+            <div class="sidebar">Sidebar</div>
+        </div>
+    </div>
+    <div class="footer" align="center">footer</div>
+    <div class="black1">black</div>
+</body>
+</html>

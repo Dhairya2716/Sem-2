@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>17-B</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 bg-dark text-white min-vh-100">
+                <h5 class="mt-2 text-center">Open Admin</h5>
+                <ul class="nav flex-column">
+                    <li class="mb-4 mt-5 gap-2 d-flex">
+                        <a href="#" class="form-control border-success"><i class="bi bi-search fs-5"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white"><i class="bi bi-bar-chart-line"></i> Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white"><i class="bi bi-file-earmark"></i> Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white"><i class="bi bi-clipboard2"></i> Admin <i class="bi bi-chevron-right ps-5 ms-5"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white"><i class="bi bi-gear-wide-connected"></i> Helpers   <i class="bi bi-chevron-right ps-5 ms-5"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white"><i class="bi bi-file-earmark"></i> Media manager</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white"><i class="bi bi-toggle-on"></i> Config</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#"><i class="bi bi-text-right"></i> Api tester</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#"><i class="bi bi-bounding-box"></i> Page Designer</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-10">
+                        <i class="bi bi-list"></i>
+                    </div>
+                    <div class="col-2"><i class="bi bi-person-fill"></i> Administrator</div>
+                </div>
+                <div class="bg-light" style="height: 660px;">
+                    <div class="row">
+                        <h3 class="col-10">Page List</h3>
+                        <div class="col-2"><i class="bi bi-house-door-fill"></i> Home/Pages</div>
+                    </div>
+                    <div style="height: 620px;">
+                        <table class="table table-bordered bg-white">
+                            <div class="row">
+                                <div class="col-10">
+                                    <button class="btn btn-success">+ New</button>
+                                    <button class="btn btn-primary">2 items selected</button>
+                                    <button class="btn btn-primary">Filter</button>
+                                    <button class="btn btn-danger">Report</button>
+                                </div>
+                                <div class="col-2">
+                                <button class="btn btn-primary">Export</button>
+                                <button class="btn btn-primary">🗓</button>
+                                </div>
+                            </div>
+                          <thead>
+                              <tr>
+                                  <th><i class="bi bi-app"></i></th>
+                                  <th>ID</th>
+                                  <th>Title</th>
+                                  <th>Date</th>
+                                  <th>Tags</th>
+                                  <th>Star</th>
+                                  <th>Created at</th>
+                                  <th>Updated at</th>
+                                  <th>Action</th>
+                              </tr>
+                          </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="bi bi-app"></i></td>
+                            <td>1</td>
+                            <td>Homepage</td>
+                            <td></td>
+                            <td><i class="bi bi-check-square"></i>
+                                <button class="btn btn-success">New</button>
+                                <button class="btn btn-success">Special</button>
+                            </td>
+                            <td>
+                                <i class="bi bi-star text-info"></i>
+                            </td>
+                            <td>
+                                2022-02-17 00:51:21
+                            </td>
+                            <td>
+                                2022-06-25 14:30:21
+                            </td>
+                            <td>
+                                <i class="bi bi-pencil-fill"></i>
+                                <i class="bi bi-eye-fill"></i>
+                                <i class="bi bi-trash3-fill"></i>
+                                <i class="bi bi-beaker"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bg-warning"><i class="bi bi-check-square text-info"></i></td>
+                            <td class="bg-warning">2</td>
+                            <td class="bg-warning">Blog</td>
+                            <td class="bg-warning">2022-06-25</td>
+                            <td class="bg-warning"><i class="bi bi-check-square"></i>
+                                <button class="btn btn-success">New</button>
+                            </td>
+                            <td class="bg-warning">
+                                <i class="bi bi-star text-info"></i>
+                            </td>
+                            <td class="bg-warning">
+                                2022-06-25 14:30:33
+                            </td>
+                            <td class="bg-warning">
+                                2022-06-25 14:30:33
+                            </td>
+                            <td>
+                                <i class="bi bi-pencil-fill"></i>
+                                <i class="bi bi-eye-fill"></i>
+                                <i class="bi bi-trash3-fill"></i>
+                                <i class="bi bi-beaker"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="bi bi-app"></i></td>
+                            <td>3</td>
+                            <td>About us</td>
+                            <td>2022-06-25</td>
+                            <td><i class="bi bi-check-square"></i>
+                            </td>
+                            <td>
+                                <i class="bi bi-star text-info"></i>
+                            </td>
+                            <td>
+                                2022-06-25 14:36:58
+                            </td>
+                            <td>
+                                2022-06-25 14:37:40
+                            </td>
+                            <td>
+                                <i class="bi bi-pencil-fill"></i>
+                                <i class="bi bi-eye-fill"></i>
+                                <i class="bi bi-trash3-fill"></i>
+                                <i class="bi bi-beaker"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="bi bi-app"></i></td>
+                            <td>4</td>
+                            <td>Contact</td>
+                            <td>2202-06-25</td>
+                            <td><i class="bi bi-check-square"></i>
+                                <button class="btn btn-success">New</button>
+                                <button class="btn btn-success">Special</button>
+                            </td>
+                            <td>
+                                <i class="bi bi-star text-info"></i>
+                            </td>
+                            <td>
+                                2022-06-25 14:37:12
+                            </td>
+                            <td>
+                                2022-06-25 14:39:16
+                            </td>
+                            <td>
+                                <i class="bi bi-pencil-fill"></i>
+                                <i class="bi bi-eye-fill"></i>
+                                <i class="bi bi-trash3-fill"></i>
+                                <i class="bi bi-beaker"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="bi bi-app"></i></td>
+                            <td>5</td>
+                            <td>Cases</td>
+                            <td></td>
+                            <td><i class="bi bi-check-square"></i>
+                            </td>
+                            <td>
+                                <i class="bi bi-star text-info"></i>
+                            </td>
+                            <td>
+                                2022-06-25 14:37:22
+                            </td>
+                            <td>
+                                2022-06-25 14:37:36
+                            </td>
+                            <td>
+                                <i class="bi bi-pencil-fill"></i>
+                                <i class="bi bi-eye-fill"></i>
+                                <i class="bi bi-trash3-fill"></i>
+                                <i class="bi bi-beaker"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bg-warning"><i class="bi bi-check-square text-info"></i></td>
+                            <td class="bg-warning">6</td>
+                            <td class="bg-warning">Clinets</td>
+                            <td class="bg-warning">2022-06-25</td>
+                            <td class="bg-warning"><i class="bi bi-check-square"></i>
+                                <button class="btn btn-success">Special</button>
+                            </td>
+                            <td class="bg-warning">
+                                <i class="bi bi-star text-info"></i>
+                            </td>
+                            <td class="bg-warning">
+                                2022-06-25 14:37:38
+                            </td>
+                            <td class="bg-warning">
+                                2022-06-25 14:37:28
+                            </td>
+                            <td>
+                                <i class="bi bi-pencil-fill"></i>
+                                <i class="bi bi-eye-fill"></i>
+                                <i class="bi bi-trash3-fill"></i>
+                                <i class="bi bi-beaker"></i>
+                            </td>
+                        </tr>
+                    </tbody>
+        </div>
+    </div>
+</body>
+</html>

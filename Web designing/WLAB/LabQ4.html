@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<head>
+    <title>Student Form</title>
+</head>
+<body>
+    <form style="border: 5px solid #000000; width: fit-content;" >
+        <table>
+        <caption>
+            Student Registration
+        </caption>
+        <tr>
+            <td>
+                Full Name
+            </td>
+            <td>
+                <input type="text" placeholder="your name" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Email
+            </td>
+            <td>
+                <input type="email" placeholder="your email" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Mobile no
+            </td>
+            <td>
+                <input type="text" pattern="{0-9}[10]" placeholder="your phone number" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Address
+            </td>
+            <td>
+                <textarea name="Address" cols="30" rows="10"> </textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Nationality
+            </td>
+            <td>
+                <input type="text" placeholder="your Nationality" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Date of Birth
+            </td>
+            <td>
+                <input type="date" placeholder="your DOB" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Gender
+            </td>
+            <td>
+                 Male<input type="radio" checked name="Gender"> Female<input type="radio" name="Gender">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Highest Degree
+            </td>
+            <td>
+                <select>
+                    <option>Select your Degree</option>
+                    <option>PHD</option>
+                    <option>Bachlor</option>
+                    <option>Master</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                CPI
+            </td>
+            <td>
+                <input type="text" placeholder="your CPI" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                University
+            </td>
+            <td>
+                <input type="text" placeholder="name of your university" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Passing Year
+            </td>
+            <td>
+                <select>
+                    <option>
+                        Select your passing year
+                    </option>
+                    <option>
+                        2022
+                    </option>
+                    <option>
+                        2023
+                    </option>
+                    <option>
+                        2024
+                    </option>
+                </select>
+            </td>
+        </tr>
+        <tr align="center">
+            <td colspan="2">
+                <input type="submit"> <input type="reset">
+            </td>
+        </tr>
+        </table>
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <form style="border: 5px solid #000000; width: fit-content;">
+        <table>
+            <caption>
+                <h1>
+                    COVID-19 Vaccine Registration Form
+                </h1>
+            </caption>
+            <tr>
+                <td>Full name</td>
+                <td><input type="text" placeholder="your first name" required></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" placeholder="your last name" required></td>
+            </tr>
+            <tr>
+                <td>Aadhar Number</td>
+                <td><input type="number" placeholder="Your Aadhar number" required></td>
+            </tr>
+            <tr>
+                <td>Vaccine Name</td>
+                <td><select>
+                    <option>Select your vaccnie name</option>
+                    <option> Vaccine-1</option>
+                    <option> Vaccine-2</option>
+                    <option> Vaccine-3</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Vaccination Center Name</td>
+                <td><select>
+                    <option>
+                        Please select your vaccine center name
+                    </option>
+                    <option>
+                        center-1
+                    </option>
+                    <option>
+                        center-2
+                    </option>
+                    <option>
+                        center-3
+                    </option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Date of Dose</td>
+                <td><input type="date" placeholder="your date of taking Dose" required></td>
+            </tr>
+            <tr>
+                <td>Dose number</td>
+                <td><input type="text" pattern="{0-4}[5]" placeholder="from 0 to 4" required></td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">
+                    <input type="submit"> <input type="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>Part : B</h2>
+    <br>
+    <br>
+    <br>
+    <form style="border: 5px solid #000000; width: fit-content;">
+        <table>
+            <caption>
+                <h1><font color="#04e0f9">Employee Registration</font></h1>
+            </caption>
+            <br>
+            <br>
+            <caption>
+                <h2>
+                    Personal Information
+                </h2>
+            </caption>
+            <tr>
+                <td>Employee ID : </td>
+                <td><input type="text" placeholder="Enter Employee ID" required></td>
+                <td>Employee Name : </td>
+                <td><input type="text" placeholder="Enter Employee name" required></td>
+            </tr>
+            <tr>
+                <td>Email : </td>
+                <td><input type="email" placeholder="Enter Email" required></td>
+                <td>Contact No : </td>
+                <td><input type="number" placeholder="Enter contact no" required></td>
+            </tr>
+            <tr>
+                <td>Marital Status : </td>
+                <td><input type="radio">Single <input type="radio">Married</td>
+            </tr>
+            <tr align="center">
+                <td colspan="4"><h2>Education Qualification</h2></td>
+            </tr>
+            <tr>
+                <td>Education : </td>
+                <td><input type="text" placeholder="Enter Education Details"></td>
+                <td>Experience : </td>
+                <td><input type="text" placeholder="Enter Experience Details"></td>
+            </tr>
+            <tr align="center">
+                <td colspan="4"><h2>Job details</h2></td>
+            </tr>
+            <tr>
+                <td>Designation : </td>
+                <td><input type="text" placeholder="Enter Designation details" required></td>
+                <td>Job Location : </td>
+                <td><input type="text" placeholder="Enter Job Location"></td>
+            </tr>
+            <tr>
+                <td>Salary : </td>
+                <td><input type="text" placeholder="Enter Salary details"></td>
+            </tr>
+            <tr align="center">
+                <td colspan="4">
+                    <button>
+                        Register
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Part : C</h1>
+    <br>
+    <br>
+    <br>
+    <form>
+        <table>
+            <caption>
+                <h1>Create Account</h1>
+            </caption>
+            <br>
+            <br>
+            <tr>
+                <td>First Name</td>
+                <td>Last Name</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

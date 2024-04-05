@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .page{
+            height: 100%;
+            background-color: aqua;
+            padding: 20px;
+        }
+        .header{
+            background-color: purple;
+        }
+        .Content{
+            padding: 20px;
+            background-color: orange;
+        }
+        .entry{
+            background-color: black;
+            color: white;
+            width: 50%;
+            margin: 20px;
+        }
+        .sidebar{
+            background-color: black;
+            color: white;
+            float: right;
+            width: 40%;
+            height: 90px;
+            position: relative;
+            bottom: 40px;
+        }
+        .footer{
+            background-color: blue;
+        }
+        @media (max-width: 800px){
+            .page{
+                height: 635px;
+                width: 100%;
+            }
+            .Content{
+                height: 500px;
+                width: 100%;
+            }
+            .sidebar{
+                margin-top: 80%;
+                margin-left: 20px;
+                float: left;
+                width: 100%;
+            }
+            .entry{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        Page
+        <div class="header">
+            Header
+        </div>
+        <div class="Content">
+            Content 
+            <div class="entry">Entry</div>
+            <div class="entry">Entry</div>
+            <div class="entry">Entry</div>
+            <div class="sidebar">Sidebar</div>
+        </div>
+        <div class="footer">
+           &#169 Darshan University-Rajkot
+        </div>
+    </div>
+</body>
+</html>
