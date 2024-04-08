@@ -1,6 +1,4 @@
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileWriter;
+import java.io.*;
 import java.util.Scanner;
 public class Lab10Q1 {
   public static void main(String[] args) {
