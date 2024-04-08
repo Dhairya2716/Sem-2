@@ -1,2 +1,7 @@
 /Java/TP
 /Web designing/TP
+*.class
+*.txt
+*.bin
+*.jpeg
+*.png
