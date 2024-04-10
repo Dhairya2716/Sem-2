@@ -3,7 +3,7 @@ import java.io.*;
 public class Lab11Q4 {
 
     public static void main(String[] args) {
-        String filename = "xyz.dat";//extension must be .dat for Data input/output stream
+        String filename = "xyz.dat";
         try{
             DataOutputStream dos  = new DataOutputStream(new FileOutputStream(filename));
             dos.writeUTF("Darshan");

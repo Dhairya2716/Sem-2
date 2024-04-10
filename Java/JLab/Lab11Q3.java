@@ -23,24 +23,24 @@ public class Lab11Q3 {
 
     public static void main(String[] args) {
         String fileName = "binaryfile.bin";
-        int fileSize = 10000; // File size in bytes
-        int numThreads = 4; // Number of threads to write the file
+        int fileSize = 10000; 
+        int numThreads = 4; 
 
         byte[] data = generateData(fileSize / numThreads);
 
         try (FileOutputStream fileOutputStream = new FileOutputStream(fileName)) {
             Thread[] threads = new Thread[numThreads];
 
-            // Create and start threads
+
             for (int i = 0; i < numThreads; i++) {
                 threads[i] = new FileWriterThread(fileOutputStream, data);
                 threads[i].start();
             }
 
-            // Demonstrate the use of join() and yield()
+
             for (Thread thread : threads) {
-                thread.join(); // Wait for threads to finish
-                thread.yield(); // Give up the CPU to other threads
+                thread.join(); 
+                thread.yield(); 
             }
 
             System.out.println("Binary file written successfully.");
@@ -49,11 +49,11 @@ public class Lab11Q3 {
         }
     }
 
-    // Generates data of specified size
+    
     private static byte[] generateData(int size) {
         byte[] data = new byte[size];
         for (int i = 0; i < size; i++) {
-            data[i] = (byte) (Math.random() * 256); // Random byte value between 0 and 255
+            data[i] = (byte) (Math.random() * 256);
         }
         return data;
     }
